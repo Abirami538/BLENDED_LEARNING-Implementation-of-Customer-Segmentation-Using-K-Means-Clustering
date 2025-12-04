@@ -40,12 +40,10 @@ Apply the K-Means algorithm to group data points into clusters based on similari
 Examine and visualize the resulting clusters to interpret patterns and relationships.
 ```
 ## Program:
-```
-/*
 Program to implement customer segmentation using K-Means clustering on the Mall Customers dataset.
 Developed by: Abirami A
 RegisterNumber: 212224040010
-
+~~~
 
 import os
 os.environ["OMP_NUM_THREADS"] = "1"  # Prevent MKL memory leak warning on Windows
